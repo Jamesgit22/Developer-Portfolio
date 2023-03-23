@@ -3,6 +3,9 @@
 :root {
     --main-gray: #32343D;
     --main-lightblue: #92CCCD;
+    --main-darkblue: rgba(49, 52, 61, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
 }
 
 header {
@@ -11,6 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 
 h1 {
     background-color: var(--main-lightblue);
@@ -26,13 +30,21 @@ li {
 }
 
 h2 {
-    position: relative;
+    position: absolute;
     left: 80%;
-    top: -5.5em;
-    border: 0.2em solid black;
+    top: 18em;
+    border: 0.2em solid rgb(255, 0, 0);
     padding: 1em;
     width: fit-content;
 }
+
+figure img {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+} 
+
 
 main {
     display: flex;
@@ -62,14 +74,39 @@ main section {
     padding: 0 0.5em 0.5em;
 }
 
-figure img {
-    z-index: -1;
-    width: 100%;
-    height: 20em;
-} */
-
 .work-container {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 300px;
+}
+
+.first-project-pic {
+    width: 65%;
+}
+
+.other-projects-pic {
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        display: block;
+        justify-content: center;
+    }
+
+    h1 {
+        align-items: center;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .nav-ul{
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+
+    h2 {
+        position: absolute;
+    }
 }
