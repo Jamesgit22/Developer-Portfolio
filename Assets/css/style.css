@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 :root {
     --main-gray: #32343D;
@@ -12,13 +9,13 @@ header {
     display: flex;
     background-color:var(--main-gray);
     justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
     background-color: var(--main-lightblue);
     color: var(--main-gray);
     padding: 0.2em 0.2em 0.2em 4em;
-    margin: 0.2em 0;
     font-size: 2.5em;
 }
 
@@ -31,7 +28,7 @@ li {
 h2 {
     position: relative;
     left: 80%;
-    top: -3.5em;
+    top: -5.5em;
     border: 0.2em solid black;
     padding: 1em;
     width: fit-content;
@@ -56,18 +53,23 @@ main section {
     display: flex;
     margin-right: 6em;
     color: var(--main-lightblue);
-    
+    flex-wrap: wrap;
 }
 
 .nav-ul li {
-    margin: 1em 0.5em;
-    border-bottom: 3px solid var(--main-lightblue);
-    padding: 0 0.5em 2px;
+    margin: 1em 0.2em;
+    border-bottom: 0.1em solid var(--main-lightblue);
+    padding: 0 0.5em 0.5em;
 }
 
 figure img {
     z-index: -1;
     width: 100%;
     height: 20em;
-}
+} */
 
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
