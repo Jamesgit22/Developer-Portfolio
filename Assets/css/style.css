@@ -31,18 +31,23 @@ li {
 
 h2 {
     position: absolute;
-    left: 80%;
-    top: 18em;
-    border: 0.2em solid rgb(255, 0, 0);
-    padding: 1em;
+    left: 88%;
+    top: 9.8em;
+    padding: 0.5em;
+    font-size: 1.5em;
     width: fit-content;
+    background-color: var(--main-lightblue);
+    color: var(--dark);
+    font-size: 2em;
 }
+
 
 figure img {
     position: relative;
     z-index: -1;
     width: 100%;
     height: 20em;
+   
 } 
 
 
@@ -107,6 +112,8 @@ main section {
     }
 
     h2 {
-        position: absolute;
+        text-align: center;
+        top: 22.5em;
+        left: 32%;
     }
 }
