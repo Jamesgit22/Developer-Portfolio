@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 :root {
     --main-gray: #32343D;
@@ -6,6 +8,8 @@
     --main-darkblue: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
+    --label-color: #465A77;
+    --text-color: #4a7dbb;
 }
 
 body {
@@ -48,6 +52,9 @@ h2 {
     font-size: 2em;
 }
 
+main {
+    background-color: var(#ededf6);
+}
 
 .main-banner {
     position: relative;
@@ -87,22 +94,28 @@ h2 {
 
 .about-me-container {
     display: flex;
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 .labels-left {
-    width: 20em;
+    margin-left: 5em;
     font-size: 5em;
     text-align: right;
-    border-right: 0.07em solid var(--main-darkblue);
-    padding-right: 0.2em;
     
+    padding-right: 0.2em;
+    color: var(--label-color);
+    
+}
+
+.about-me-left {
+    border-right: 0.07em solid var(--label-color);
 }
 
 .about-me-right {
     font-size: 1.5em;
     margin: 0 5em 0em 2em;
     line-height: 1.4em;
+    color: var(--text-color);
     
 }
 
@@ -110,7 +123,110 @@ h2 {
     margin-top: 2em
 }
 
+.work-main-container {
+    display: flex;
+    margin-top: 5em;
+}
 
+.work-label {
+    border-right: 0.35em solid var(--label-color);
+}
+
+.work-header{
+    margin-left: 5.38em;
+}
+
+.work-images {
+    display: block;
+}
+
+.big-picture {
+    /* background-image: url(../images/02-portfolio-1.jpg); */
+    width: 80vw;
+    margin: 0 auto;
+    /* text-align: center; */
+
+    
+}
+
+.big-picture img {
+    width: 140em;
+    max-width: 85%;
+    max-height: 40em;
+    object-fit: cover;
+    margin-left: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .work-left {
+    margin-left: 6.39em;
+    /* height: 10em; */
+*/
+
+
+
+/* #work-main-fig {
+    background-image: url(../images/02-portfolio-1.jpg);
+    position: relative;
+    z-index: -1;
+    width: 60%;
+
+    background-size: contain;
+    overflow: hidden;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    
+} */
+
+/* #work-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background: var(--main-lightblue);
+    opacity: 40%;
+} */
 
 
 
@@ -122,6 +238,7 @@ h2 {
         display: block;
         justify-content: center;
     }
+
 
     h1 {
         align-items: center;
