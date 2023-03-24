@@ -49,7 +49,7 @@ h2 {
 }
 
 
-figure {
+.main-banner {
     position: relative;
     z-index: -1;
     width: 100vw;
@@ -60,21 +60,6 @@ figure {
     background-image: url(../images/02-hero-bg.jpg);
     
 } 
-
-main {
-    display: flex;
-}
-
-main aside {
-    order: 0;
-    width: 20%;
-    text-align: right;
-    margin-right: 2em;
-}
-/* changing assets file name */
-main section {
-    order: 1;
-}
 
 .nav-ul {
     display: flex;
@@ -106,7 +91,7 @@ main section {
 }
 
 .labels-left {
-    width: 35%;
+    width: 20em;
     font-size: 5em;
     text-align: right;
     border-right: 0.07em solid var(--main-darkblue);
@@ -124,6 +109,14 @@ main section {
 .about-me-right .p2 {
     margin-top: 2em
 }
+
+.
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
     header{
         display: block;
