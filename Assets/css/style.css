@@ -25,14 +25,15 @@ h1 {
     background-color: var(--main-lightblue);
     color: var(--main-gray);
     padding: 0.2em 0.2em 0.2em 4em;
-    font-size: 2.5em;
+    font-size: 4em;
+    
    
 }
 
 
 li {
     list-style: none;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 h2 {
@@ -84,7 +85,7 @@ main section {
 
 .nav-ul li {
     margin: 1em 0.2em;
-    border-bottom: 0.1em solid var(--main-lightblue);
+    border-bottom: 0.15em solid var(--main-lightblue);
     padding: 0 0.5em 0.5em;
 }
 
@@ -99,27 +100,30 @@ main section {
 
 }
 
-.content-left {
-    width: 20vw;
-}
-
-.content-right {
-    width: 80vw;
-}
-.work-container {
+.about-me-container {
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: 300px;
+    margin-top: 3em;
 }
 
-.first-project-pic {
-    width: 65%;
+.labels-left {
+    width: 35%;
+    font-size: 5em;
+    text-align: right;
+    border-right: 0.07em solid var(--main-darkblue);
+    padding-right: 0.2em;
+    
 }
 
-.other-projects-pic {
-    width: 30%;
+.about-me-right {
+    font-size: 1.5em;
+    margin: 0 5em 0em 2em;
+    line-height: 1.4em;
+    
 }
 
+.about-me-right .p2 {
+    margin-top: 2em
+}
 @media screen and (max-width: 600px) {
     header{
         display: block;
