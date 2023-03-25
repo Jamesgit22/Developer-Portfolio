@@ -185,7 +185,51 @@ padding-bottom: 0.6em;
     margin-left: 325px;
 }
 
+#small-images {
+    margin-top: 3em;
+    margin-left: 3em;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
 
+#small-image-1 {
+    background-image: url(../images/02-portfolio-1.jpg);
+    border: 5px solid var(--main-lightblue);
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+#small-image-2 {
+    background-image: url(../images/02-portfolio-2.jpg);
+    border: 5px solid var(--main-lightblue);
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+#small-image-3 {
+    background-image: url(../images/02-portfolio-3.jpg);
+    border: 5px solid var(--main-lightblue);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+#small-image-4 {
+    background-image: url(../images/02-run-buddy.jpg);
+    border: 5px solid var(--main-lightblue);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
 
 
 
