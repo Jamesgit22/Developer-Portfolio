@@ -154,7 +154,7 @@ main {
 #big-image-overlay {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 49.5vh;
     background-color: var(--image-overlay-color);
 }
 
@@ -207,38 +207,6 @@ padding-bottom: 0.6em;
 
 
 
-
-
-
-/* .work-left {
-    margin-left: 6.39em;
-    /* height: 10em; */
-
-
-
-
-/* #work-main-fig {
-    background-image: url(../images/02-portfolio-1.jpg);
-    position: relative;
-    z-index: -1;
-    width: 60%;
-
-    background-size: contain;
-    overflow: hidden;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    
-} */
-
-/* #work-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80vh;
-    background: var(--main-lightblue);
-    opacity: 40%;
-} */
 
 
 @media screen and (max-width: 600px) {
