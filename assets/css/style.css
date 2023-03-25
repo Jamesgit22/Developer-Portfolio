@@ -10,6 +10,7 @@
     --light: rgba(238, 238, 247, 1);
     --label-color: #465A77;
     --text-color: #4a7dbb;
+    --image-overlay-color: rgba(146, 204, 205, 0.28);
 }
 
 body {
@@ -28,8 +29,10 @@ header {
 h1 {
     background-color: var(--main-lightblue);
     color: var(--main-gray);
-    padding: 0.2em 0.2em 0.2em 4em;
-    font-size: 4em;
+    padding: 0.1em 0.2em 0.1em 4em;
+    font-size: 3.5em;
+    margin-top: 0.05em;
+    margin-bottom: 0.25em;
     
    
 }
@@ -37,7 +40,7 @@ h1 {
 
 li {
     list-style: none;
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 h2 {
@@ -54,6 +57,7 @@ h2 {
 
 main {
     background-color: var(#ededf6);
+    margin: 0 2em;
 }
 
 .main-banner {
@@ -87,7 +91,7 @@ main {
 }
 
 .nav-ul li {
-    margin: 1em 0.2em;
+    margin: 0.5em 0.2em;
     border-bottom: 0.15em solid var(--main-lightblue);
     padding: 0 0.5em 0.5em;
 }
@@ -141,57 +145,39 @@ main {
     display: block;
 }
 
-.big-picture {
-    /* background-image: url(../images/02-portfolio-1.jpg); */
-    width: 80vw;
-    margin: 0 auto;
-    width: fit-content;
-    /* text-align: center; */
+#big-image {
+    width: 100%;
+    height: 50vh;
     
-}
-
-.big-picture img {
-    width: 140em;
-    max-width: 85%;
-    max-height: 40em;
-    object-fit: cover;
-    margin-left: 3em;
-    border: 5px solid var(--main-lightblue);
-    position: relative;
-    z-index: -1;
+    background-position: center;
     background-size: cover;
-    overflow: hidden;
+    background-image: url(../images/02-portfolio-4.jpg);
+    margin-left: 3em;
 }
 
-.big-overlay {
+#big-image-overlay {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 85;
-    height: 100%;
-    background: rgb(46, 134, 201);
-    opacity: 40%;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--image-overlay-color);
 }
 
-
-.big-title-container {
-    position: relative;
-    bottom: 4em;
-    left: 1.3em;
-    font-size: 2.5em;
+#big-img-title-container {
+    position: absolute;
+    bottom: 25px;
     background-color: var(--main-lightblue);
-    width: fit-content;
-    padding: 0.5em 0.5em;
+    padding: 0.6em 0.6em 0 0.6em;
+    display: inline-block;
 }
 
-.big-title-container p {
-    font-size: 0.4em;
-    margin-top: 1em;
+#big-img-title-container h4 {
+    font-size: 2.5em;
+    margin-bottom: 0.25em;
 }
 
-
-
-
+#big-img-title-container p {
+padding-bottom: 0.6em;
+}
 
 
 
