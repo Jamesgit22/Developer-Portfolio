@@ -147,7 +147,7 @@ main {
 
 .work-label {
     border-right: 5px solid var(--label-color);
-    margin-left: 130px;
+    margin-left: 131px;
 }
 
 .work-images {
@@ -200,7 +200,7 @@ padding-bottom: 0.6em;
 
 #work-border {
     border-right: 5px solid var(--label-color) ;
-    margin-left: 325px;
+    margin-left: 326px;
 }
 
 #small-images {
@@ -284,10 +284,17 @@ padding-bottom: 0.6em;
     padding-bottom: 0.6em;
 }
 
+#contact-container {
+    display: flex;
+    margin-top: 5em;
+}
 
 
+#contact-left h3 {
+    border-right: 5px solid var(--label-color);
+    margin-left: 30px;
 
-
+}
 
 
 
