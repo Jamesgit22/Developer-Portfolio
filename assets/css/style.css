@@ -11,6 +11,8 @@
     --label-color: #465A77;
     --text-color: #4a7dbb;
     --image-overlay-color: rgba(146, 204, 205, 0.28);
+    --overlay-hover-opacity: #92cccd00;
+    --overlay-hover-transition: background-color 400ms linear;
 }
 
 body {
@@ -158,6 +160,11 @@ main {
     background-color: var(--image-overlay-color);
 }
 
+#big-image-overlay:hover {
+    transition: var(--overlay-hover-transition);
+    background-color: var(--overlay-hover-opacity); 
+}
+
 #big-img-title-container {
     position: absolute;
     bottom: 25px;
@@ -238,7 +245,13 @@ padding-bottom: 0.6em;
     background-color: var(--image-overlay-color);
     width: 100;
     height: 100%;
-    position: relative
+    position: relative;
+    
+}
+
+.small-images-overlay:hover {
+    transition: var(--overlay-hover-transition);
+    background-color: var(--overlay-hover-opacity);    
 }
 
 .small-title-containers {
@@ -258,122 +271,6 @@ padding-bottom: 0.6em;
 .small-title-containers p {
     padding-bottom: 0.6em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-    
-}
-
-
-
-
- */
-
-
-
-
-
-
-
-
-/* 
-#small-image-1 {
-    background-image: url(../images/02-portfolio-1.jpg);
-    border: 5px solid var(--main-lightblue);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: auto;
-    
-   
-    
-}
-
-#small-image-2 {
-    background-image: url(../images/02-portfolio-2.jpg);
-    border: 5px solid var(--main-lightblue);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: auto;
-   
-    
-}
-
-#small-image-3 {
-    background-image: url(../images/02-portfolio-3.jpg);
-    border: 5px solid var(--main-lightblue);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: auto;
-    
-    
-}
-
-#small-image-4 {
-    background-image: url(../images/02-run-buddy.jpg);
-    border: 5px solid var(--main-lightblue);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: auto;
-    
-    
-    
-}
-
-.small-images-overlay {
-    width: 37vw;
-    height: 20vh;
-    /* margin-bottom: 1em; */
-    /* padding: 0;
-    background-color: var(--image-overlay-color);
-    position: relative;
-}
-  */
-
-
-
-
-
 
 
 
