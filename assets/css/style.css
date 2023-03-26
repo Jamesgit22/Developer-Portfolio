@@ -10,7 +10,7 @@
     --light: rgba(238, 238, 247, 1);
     --label-color: #465A77;
     --text-color: #4a7dbb;
-    --image-overlay-color: rgba(146, 204, 205, 0.28);
+    --image-overlay-color: rgba(146, 204, 205, 0.456);
     --overlay-hover-opacity: #92cccd00;
     --overlay-hover-transition: background-color 400ms linear;
 }
@@ -47,8 +47,8 @@ li {
 
 h2 {
     position: absolute;
-    left: 88%;
-    top: 7em;
+    right: 100px;
+    top: 220px;
     padding: 0.5em;
     font-size: 1.5em;
     width: fit-content;
@@ -87,7 +87,7 @@ main {
 
 .nav-ul {
     display: flex;
-    margin-right: 6em;
+    margin-right: 85px;
     color: var(--main-lightblue);
     flex-wrap: wrap;
 }
@@ -95,7 +95,18 @@ main {
 .nav-ul li {
     margin: 0.5em 0.2em;
     border-bottom: 0.15em solid var(--main-lightblue);
-    padding: 0 0.5em 0.5em;
+    padding: 0.5em 0.5em 0.5em;
+    background: linear-gradient(var(--main-gray), var(--main-gray) 50%, var(--main-lightblue) 50%, var(--main-lightblue));
+    background-size: 100% 200%;
+    transition: 1s;
+    
+
+}
+
+.nav-ul li:hover {
+    background-position: 100% 100%;
+    color: var(--main-gray);
+    
 }
 
 
