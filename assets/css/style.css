@@ -213,9 +213,6 @@ padding-bottom: 0.6em;
     flex-wrap: wrap;
     column-gap: 2%;
     row-gap: 2em;
-    
-    
-    
 }
 
 #small-image-1 {
@@ -319,7 +316,7 @@ padding-bottom: 0.6em;
 #contact-right a {
     text-decoration: none;
     font-size: 1.5em;
-    color: var(--label-color);
+    color: var(--main-gray);
     padding: 0.2em 0.3em;
     border-bottom: 5px solid var(--label-color);
     background: linear-gradient(var(--body-color), var(--body-color) 50%, var(--label-color) 50%, var(--label-color));
@@ -335,12 +332,13 @@ padding-bottom: 0.6em;
 
 
 
+/* Media section */
 
 
 
 
+@media screen and (max-width: 990px) {
 
-@media screen and (max-width: 600px) {
 
     header{
         display: block;
@@ -369,5 +367,114 @@ padding-bottom: 0.6em;
         text-align: center;
         top: 22.5em;
         left: 32%;
+    }
+
+    main {
+        margin: 0 3em 0 3em;
+    }
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    .about-me-container h3 {
+        border-bottom: 5px solid var(--label-color);
+        /* width: 100vw; */
+        border-right: none;
+        padding: 0.5em;
+        margin: 0;
+    }
+
+    .about-me-right {
+        margin: 0;
+    }
+
+    .about-me-container p {
+        margin-top: 1em;
+    }
+
+    .labels-left {
+        text-align: center;
+        padding-bottom: 0.2em;
+    }
+
+    #contact-left h3 {
+        margin: 0;
+    }
+
+    .work-main-container {
+        flex-direction: column;
+    }
+    
+    .work-label {
+        border-right: none;
+        border-bottom: 5px solid var(--label-color);
+        margin: 0;
+    }
+
+    #big-image {
+        margin: 2em 0;
+        
+    }
+
+    #big-img-title-container h4 {
+        font-size: 1em;
+    }
+
+    #big-img-title-container p {
+        font-size: 0.5em;
+    }
+
+    #work-small-container {
+        flex-direction: column;
+    }
+
+    #small-images {
+        flex-direction: column;
+    }
+
+    #small-image-1{
+        width: 100%;
+        height: 17vh;
+    }
+
+    #small-image-2{
+        width: 100%;
+    }
+
+    #small-image-3{
+        width: 100%;
+    }
+
+    #small-image-4{
+        width: 100%;
+    }
+
+    .small-title-containers{
+        font-size: 0.5em;
+    }
+
+    #work-border {
+        margin: 0;
+        border-right: none;
+    }
+
+    #small-images {
+        margin: 0;
+        row-gap: 0.8em;
+    }
+
+    #contact-container {
+        flex-direction: column;
+    }
+
+    #contact-left {
+        border-right: none;
+        border-bottom: 5px solid var(--label-color);
+    }
+
+    #contact-right ul {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
     }
 }
