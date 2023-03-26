@@ -59,7 +59,14 @@ h2 {
     color: var(--dark);
     font-size: 2em;
 }
-
+a {
+    text-decoration: none;
+    color: var(--main-lightblue);
+    transition: 1s;
+}
+.nav-ul a:hover {
+    color: var(--main-gray);
+}
 main {
     margin: 0 5em 0 3em;
 }
@@ -217,7 +224,7 @@ padding-bottom: 0.6em;
 
 #small-image-1 {
     width: 49%;
-    height: 20vh;
+    height: 17vh;
     border: 5px solid var(--main-lightblue);
     background-position: center;
     background-size: cover;
@@ -226,7 +233,7 @@ padding-bottom: 0.6em;
 
 #small-image-2 {
     width: 49%;
-    height: 20vh;
+    height: 17vh;
     border: 5px solid var(--main-lightblue);
     background-position: center;
     background-size: cover;
@@ -235,7 +242,7 @@ padding-bottom: 0.6em;
 
 #small-image-3 {
     width: 49%;
-    height: 20vh;
+    height: 17vh;
     border: 5px solid var(--main-lightblue);
     background-position: center;
     background-size: cover;
@@ -244,7 +251,7 @@ padding-bottom: 0.6em;
 
 #small-image-4 {
     width: 49%;
-    height: 20vh;
+    height: 17vh;
     border: 5px solid var(--main-lightblue);
     background-position: center;
     background-size: cover;
@@ -335,6 +342,29 @@ padding-bottom: 0.6em;
 /* Media section */
 
 
+@media screen and (max-width: 1300px) {
+    .small-title-containers{
+        font-size: 0.5em;
+    }
+
+    .labels-left {
+        font-size: 3em;
+    }
+    
+    .work-label {
+        border-right: 5px solid var(--label-color);
+        margin-left: 119px;
+    }
+
+    #work-border {
+        margin-left:236px;
+    }
+
+    #contact-left {
+        margin-left: 29px;
+        margin-left: 0;
+    }
+}
 
 
 @media screen and (max-width: 990px) {
@@ -358,15 +388,24 @@ padding-bottom: 0.6em;
         text-align: center;
     }
 
-    .nav-ul li{
-        margin: 0;
 
+    .main-banner {
+        text-align: center;
     }
 
     h2 {
+        position: absolute;
         text-align: center;
-        top: 22.5em;
-        left: 32%;
+        left: 50%;
+        margin-left: -92px;
+        top: 50%;
+        margin-top: -28px;
+        font-size: 1.8em;
+
+
+        /* margin: 4em auto;
+        padding: 1em 3em;
+        z-index: 1; */
     }
 
     main {
@@ -449,10 +488,6 @@ padding-bottom: 0.6em;
         width: 100%;
     }
 
-    .small-title-containers{
-        font-size: 0.5em;
-    }
-
     #work-border {
         margin: 0;
         border-right: none;
@@ -470,6 +505,7 @@ padding-bottom: 0.6em;
     #contact-left {
         border-right: none;
         border-bottom: 5px solid var(--label-color);
+        margin: 0;
     }
 
     #contact-right ul {
