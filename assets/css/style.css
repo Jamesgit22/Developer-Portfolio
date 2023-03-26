@@ -169,10 +169,10 @@ main {
     width: 100%;
     height: 49.5vh;
     background-color: var(--image-overlay-color);
+    transition: 0.5s;
 }
 
 #big-image-overlay:hover {
-    transition: var(--overlay-hover-transition);
     background-color: var(--overlay-hover-opacity); 
 }
 
@@ -257,11 +257,12 @@ padding-bottom: 0.6em;
     width: 100;
     height: 100%;
     position: relative;
+    transition: 0.5s;
     
 }
 
 .small-images-overlay:hover {
-    transition: var(--overlay-hover-transition);
+    
     background-color: var(--overlay-hover-opacity);    
 }
 
