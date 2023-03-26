@@ -98,7 +98,7 @@ main {
     padding: 0.5em 0.5em 0.5em;
     background: linear-gradient(var(--main-gray), var(--main-gray) 50%, var(--main-lightblue) 50%, var(--main-lightblue));
     background-size: 100% 200%;
-    transition: 1s;
+    transition: 0.5s;
     
 
 }
@@ -315,6 +315,11 @@ padding-bottom: 0.6em;
         flex-direction: column;
         margin: 0;
         text-align: center;
+    }
+
+    .nav-ul li{
+        margin: 0;
+
     }
 
     h2 {
