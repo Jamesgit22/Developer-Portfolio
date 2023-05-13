@@ -19,7 +19,7 @@ This webpage serves as a central hub to quikcly learn a little about me and to a
 
 ![Alt text](assets/images/portfolio-cover.png)
 
-![Alt text](assets/images/portfolio-work.png)
+![Alt text](assets/images/portfolio_lorem.png)
 
 ![Alt text](assets/images/portfolio-contact.png)
 

@@ -160,7 +160,7 @@ main {
     border: 5px solid var(--main-lightblue);
     background-position: center;
     background-size: cover;
-    background-image: url(../images/date-on-a-dime-cover.png);
+    background-image: url(../images/profile.png);
     margin-left: 3em;
 }
 
@@ -232,7 +232,7 @@ padding-bottom: 0.6em;
     border: 5px solid var(--main-lightblue);
     background-position: center;
     background-size: cover;
-    background-image: url(../images/02-portfolio-1.jpg);
+    background-image: url(../images/date-on-a-dime-cover.png);
 }
 
 #small-image-2 {
